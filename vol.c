@@ -17,5 +17,5 @@ T getVol(const vertex* vertices, const int* indices, int elements) {
                vertices[indices[3*i+1]],
                vertices[indices[3*i+2]]);
   }
-  return sum * 0.5;
+  return sum / 6;
 }
